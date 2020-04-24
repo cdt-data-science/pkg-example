@@ -1,6 +1,8 @@
-class Calculator(object):
-  """A simple calculator class."""
+"""Calculator class and friends"""
 
-  def double(self, number):
-    """Doubles the input number."""
-    return 2 * number
+class Calculator:
+    """A simple calculator class."""
+
+    def double(self, number):
+        """Doubles the input number."""
+        return 2 * number
