@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import fire
+
+from pkg_example.calculator_module import Calculator
+
+if __name__ == '__main__':
+    fire.Fire(Calculator)
