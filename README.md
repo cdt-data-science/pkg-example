@@ -136,14 +136,14 @@ into their console, and just crack on. Neat huh?!
 * [The (crappy) slides from the talk][1]
 * [A great blog post on pacakging your python project][2]
 * [The Python Fire Project - super easy CLIs][3]
-* [Comments & docstrings a la the Google Style Guide][4]
+* [Comments & docstrings a la the **Google Style Guide**][4]
 * [...but combine the above with **type hinting** and you're golden][5]
-* [More on setup.cfg][]
+* [More on setup.cfg][6]
 
 
-[1] https://docs.google.com/presentation/d/1dZXcjCLKMEpq_HbjI0L4A_ZVMjBmEVN3mbOytily-78/edit?usp=sharing "Slides from the talk"
-[2] https://realpython.com/pypi-publish-python-package/ "Packaging your python project"
-[3] https://github.com/google/python-fire "python fire"
-[4] http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings "Google code styleguide - conmments and docstrings"
-[5] https://docs.python.org/3/library/typing.html "Type hints"
-https://setuptools.readthedocs.io/en/latest/setuptools.html#configuring-setup-using-setup-cfg-files "setup.cfg"
+[1]: https://docs.google.com/presentation/d/1dZXcjCLKMEpq_HbjI0L4A_ZVMjBmEVN3mbOytily-78/edit?usp=sharing "Slides from the talk"
+[2]: https://realpython.com/pypi-publish-python-package/ "Packaging your python project"
+[3]: https://github.com/google/python-fire "python fire"
+[4]: http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings "Google code styleguide - conmments and docstrings"
+[5]: https://docs.python.org/3/library/typing.html "Type hints"
+[6]: https://setuptools.readthedocs.io/en/latest/setuptools.html#configuring-setup-using-setup-cfg-files "setup.cfg"
