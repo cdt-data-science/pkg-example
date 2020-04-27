@@ -121,8 +121,8 @@ here.
 
 
 ## What next?
-You can upload your package to PyPI! See [docs/pypi-publish.md](docs/pypi-publish.md) for more information. Once you do that, everyone in the world can
-mash
+You can upload your package to PyPI! See [docs/pypi-publish.md](docs/pypi-publish.md)
+for more information. Once you do that, everyone in the world can mash
 
 ```bash
 pip install your_package_name
@@ -130,6 +130,30 @@ pip install your_package_name
 
 into their console, and just crack on. Neat huh?!
 
+## Linting & Testing
+You will have installed `pytest`, `black`, and `pylint` as part of the installation.
+
+* Running `pytest` from the root directory will run all the tests in `./test`.
+* Running `black .` will reformat your code to fit with a specific standard (e.g.
+  line lengths etc.)
+* Running `pylint pkg_example` will check the package conforms to pep8 standards.
+
+Motivation for testing and linting:
+
+* Python is permissive and not precompiled
+* If your code doesn't need to 'go there' it wont
+* ...so it wont error till you're 28 hours into the job
+* you know, the very important job due for yesterday?
+
+So imagine the scenario:
+* You renamed a variable
+* Your code is much more understandable, great job!
+* ...oops you missed one (your `ctrl` + `f` regex didn't account for bracket first)
+* What would have saved your ass:
+    * having written a test that runs that part of the code
+    * simply running pylint - `unused-variable (W0612)`
+    * YOU LITERALLY JUST SAVED 24-26 HOURS (You spent 2-4 writing better code - 
+      this gets significantly faster with practice)
 
 ## References
 
