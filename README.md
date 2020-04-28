@@ -156,7 +156,7 @@ So imagine the scenario:
       this gets significantly faster with practice)
 
 A pylint test - you can exclude some of the warnings using the `--disable` flag. Given that
-`black` doesn't actually conform to PEP8 (:grimmace:), you may want to call pylint as below
+`black` doesn't actually conform to PEP8 (:grimacing:), you may want to call pylint as below
 to remove some guff:
 ```
 pylint --disable=C0330 pkg_example
